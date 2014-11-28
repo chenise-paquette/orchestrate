@@ -78,7 +78,7 @@ a:focus {
 
 .billboard {
     padding-top: 6em;
-    background-image: url(studio.jpg);
+    background-image: url(image/studio.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
