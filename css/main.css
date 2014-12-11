@@ -87,7 +87,7 @@ a:focus {
 
 .bheadline {
     text-align: center;
-    color: #60c7d0;
+    color: #000;
     font-weight: 500;
 }
 
@@ -185,12 +185,11 @@ input + label {
 
 button {
     font-size: 1em;
+    text-decoration-color: white;
     font-family: opensans;
     padding: .25em 1em;
     border: 1px solid #000;
     background-color: black;
-    color: white;
-    cursor: pointer;
     position: absolute;
     top:350px;
     left: 0;
@@ -200,12 +199,12 @@ button {
     height: 50px;
 }
 
-button:hover {
+.button:hover {
     background color: black;
 }
   
-button:active {
-    border-color: organge;
+.button:active {
+    border-color: black;
 }
 
 .field{
