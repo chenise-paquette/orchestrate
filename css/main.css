@@ -85,6 +85,15 @@ a:focus {
     height: 500px;
 }
 
+.billboardthanks {
+    background-image: url(image/studio.jpg);
+    height: 42em;
+    background-size:cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 11em;
+}
+
 .bheadline {
     text-align: center;
     color: #000;
