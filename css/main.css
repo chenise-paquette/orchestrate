@@ -85,6 +85,12 @@ a:focus {
     height: 500px;
 }
 
+.bheadline {
+    text-align: center;
+    color: #60c7d0;
+    font-weight: 500;
+}
+
 .intro {
     background-color: #e2e2e2;
     margin:0;
