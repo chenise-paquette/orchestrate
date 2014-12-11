@@ -250,6 +250,7 @@ button {
 .pricechart{
     margin: 0 auto;
     text-align: center;
+    text-decoration-color: white;
     display: block;
     list-style: none;
     background-color:#000;
