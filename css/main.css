@@ -133,7 +133,6 @@ h3 {
 
 .header {
     background-color: black;
-    background-color: black;
 }
 
 .title {
@@ -190,20 +189,23 @@ label {
 
 input + label {
  display: inline-block;
- }
+}
 
 button {
-    text-decoration:none;
-    list-style: none;
-    border: 2px solid #aeb9e9;
-    background-color:#aeb9e9;
     position: relative;
     color:#aeb9e9;
+    border: 2px solid #aeb9e9;
+    background-color:#aeb9e9;
     border-radius: 10px;
     display: block;
     margin-left:auto;
     margin-right:auto;
     font-size: 1.25em;
+    text-decoration: none;
+}
+
+.signup {
+    text-decoration: none;
 }
 
 .button:hover {
@@ -220,21 +222,6 @@ button {
     border-radius: 4px;
     border: 1px solid #666;
     background-color: #e2e2e2;
-}
-
-.field:focus {
-    background-color: orange;
-    color: #fff;
-    outline: 3px solid #000;
-}
-
-.text{
-    width:100%;
-}
-
-.textbox{
-    width:100%;
-    height:15em;
 }
 
 .whitetype{
@@ -269,6 +256,11 @@ button {
         margin: 0 auto;
  }
 
+form{
+    max-width:35em;
+    margin: 0 auto;
+    text-align: center;
+}
 
 @media only screen and (min-width: 25em) {
     
