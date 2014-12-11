@@ -271,12 +271,6 @@ button {
     background-color: #000;
 }
 
-.thanks{
-    position:center;
-    display: inline-block;
-    top:100px;
-}
-
 
 @media only screen and (min-width: 25em) {
     
@@ -322,6 +316,11 @@ input + label {
     text-align:center;
 }    
     
+.thanks{
+    max-width: 40em;
+    margin: 0 auto;
+}
+    
 @media only screen and (min-width: 60em) {
     
 .title {
@@ -355,4 +354,9 @@ dd {
   float: left;
   margin: 0;
   padding: 0;
+}
+    
+.thanks{
+    max-width: 40em;
+    margin: 0 auto;
 }
