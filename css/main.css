@@ -124,7 +124,7 @@ h3 {
 
 .header {
     background-color: black;
-    overflow: hidden
+    background-color: black;
 }
 
 .title {
@@ -232,6 +232,19 @@ button {
 
 .whitetype{
     color:white;
+}
+
+.pricebox{
+    max-width: 25em;
+    margin:auto;
+}
+
+.priceheader{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2rem;
+    color:white;
+    background-color:#ff1d8e;
 }
 
 @media only screen and (min-width: 20em) {
