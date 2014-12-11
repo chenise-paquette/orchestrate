@@ -193,19 +193,17 @@ input + label {
  }
 
 button {
-    font-size: 1em;
-    text-decoration-color: white;
-    font-family: opensans;
-    padding: .25em 1em;
-    border: 1px solid #000;
-    background-color: black;
-    position: absolute;
-    top:350px;
-    left: 0;
-    width: 100%;
-    margin: 1 auto;
-    width: 110px;
-    height: 50px;
+    text-decoration:none;
+    list-style: none;
+    border: 2px solid #aeb9e9;
+    background-color:#aeb9e9;
+    position: relative;
+    color:#aeb9e9;
+    border-radius: 10px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 1.25em;
 }
 
 .button:hover {
@@ -263,13 +261,13 @@ button {
 }
 
 .price {
-    background-color:#f2f7fa;
+    background-color:#aeb9e9;
 }
 
  .pricingbox{
         max-width:25em;
         margin: 0 auto;
-    }
+ }
 
 
 @media only screen and (min-width: 25em) {
@@ -321,6 +319,11 @@ input + label {
     margin: 0 auto;
 }
     
+.pricingbox{
+    max-width: none;
+}
+    
+    
 @media only screen and (min-width: 60em) {
     
 .title {
@@ -359,4 +362,8 @@ dd {
 .thanks{
     max-width: 40em;
     margin: 0 auto;
+}
+    
+.pricingbox{
+    max-width: none;
 }
