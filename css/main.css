@@ -243,33 +243,33 @@ button {
     color:white;
 }
 
-.pricebox{
-    max-width: 25em;
-    margin:auto;
-}
 
-.priceheader{
+.pricingtitle{
     margin: 0 auto;
     text-align: center;
     font-size: 2rem;
     color:white;
-    background-color:#000;
+    background-color:#5b6ebd;
 }
 
-.pricechart{
+.pricelist{
     margin: 0 auto;
     text-align: center;
-    text-decoration-color: white;
     display: block;
     list-style: none;
-    background-color:#000;
+    background-color:#aeb9e9;
     color: black;
     padding: 0;
 }
 
-.price{
-    background-color: #000;
+.price {
+    background-color:#f2f7fa;
 }
+
+ .pricingbox{
+        max-width:25em;
+        margin: 0 auto;
+    }
 
 
 @media only screen and (min-width: 25em) {
