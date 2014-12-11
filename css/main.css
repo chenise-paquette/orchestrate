@@ -244,8 +244,19 @@ button {
     text-align: center;
     font-size: 2rem;
     color:white;
-    background-color:#ff1d8e;
+    background-color:#000;
 }
+
+.pricechart{
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    list-style: none;
+    background-color:#000;
+    color: black;
+    padding: 0;
+}
+
 
 @media only screen and (min-width: 20em) {
     
