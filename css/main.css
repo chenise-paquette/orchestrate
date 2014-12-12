@@ -220,6 +220,16 @@ button {
     top:90px;
 }
 
+.signinbtn{
+    position: relative;
+    border-radius: 10px;
+    display:inline-block;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 1.25em;
+    text-decoration: none;
+}
+
 .button:hover {
     background color: black;
 }
@@ -308,7 +318,6 @@ input + label {
     margin-right:auto;
     font-size: 1.25em;
     text-decoration: none;
-    top:90px;
 }
     
 @media only screen and (min-width: 38em) {
@@ -345,12 +354,12 @@ input + label {
 .homebutton{
     position: relative;
     border-radius: 10px;
-    display: block;
+    display: inline-block;
     margin-left:auto;
     margin-right:auto;
     font-size: 1.25em;
     text-decoration: none;
-    top:90px;
+    top:150px;
 }
     
 @media only screen and (min-width: 60em) {
@@ -410,3 +419,13 @@ button {
     text-decoration: none;
 }
 
+.homebutton{
+    position: relative;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 1.25em;
+    text-decoration: none;
+    top:150px;
+}
