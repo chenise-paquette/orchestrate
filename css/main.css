@@ -398,12 +398,11 @@ dd {
 }
     
 button {
-    position: absolute;
+    position: relative;
     color:#aeb9e9;
     border: 2px solid #aeb9e9;
     background-color:#aeb9e9;
     border-radius: 10px;
-    top:80px;
     display: block;
     margin-left:auto;
     margin-right:auto;
