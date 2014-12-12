@@ -210,14 +210,14 @@ button {
 }
 
 .homebutton{
-    position:relative;
+    position: relative;
     border-radius: 10px;
     display: block;
     margin-left:auto;
     margin-right:auto;
     font-size: 1.25em;
     text-decoration: none;
-    top:70px;
+    top:90px;
 }
 
 .button:hover {
@@ -300,6 +300,17 @@ input + label {
     text-align:center;
 }
     
+.homebutton{
+    position: relative;
+    border-radius: 10px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 1.25em;
+    text-decoration: none;
+    top:90px;
+}
+    
 @media only screen and (min-width: 38em) {
     
 .nav li {
@@ -331,6 +342,16 @@ input + label {
     max-width: none;
 }
     
+.homebutton{
+    position: relative;
+    border-radius: 10px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 1.25em;
+    text-decoration: none;
+    top:90px;
+}
     
 @media only screen and (min-width: 60em) {
     
@@ -375,3 +396,18 @@ dd {
 .pricingbox{
     max-width: none;
 }
+    
+button {
+    position: absolute;
+    color:#aeb9e9;
+    border: 2px solid #aeb9e9;
+    background-color:#aeb9e9;
+    border-radius: 10px;
+    top:80px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 1.25em;
+    text-decoration: none;
+}
+
